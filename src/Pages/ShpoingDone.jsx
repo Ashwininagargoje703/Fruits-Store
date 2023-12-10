@@ -7,7 +7,7 @@ export default function ShpoingDone() {
     <div>
       <Navbar />
       <div className="flex justify-center">
-        <img src="https://i.pinimg.com/originals/32/b6/f2/32b6f2aeeb2d21c5a29382721cdc67f7.gif" />
+        <img src="https://cdn.dribbble.com/users/2185205/screenshots/7886140/media/90211520c82920dcaf6aea7604aeb029.gif" />
       </div>
     </div>
   );

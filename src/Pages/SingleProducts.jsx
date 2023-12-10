@@ -81,10 +81,10 @@ export default function SingleProducts() {
                   <p className="mt-6 text-4xl font-black">
                     ₹ {data.discount_price_inr}
                   </p>
-                  <span className="ml-2 text-sm uppercase line-through">
+                  <span className="ml-2 text-lg text-red-600 uppercase line-through ">
                     ₹{data.price_inr}
                   </span>{" "}
-                  <span className="ml-2 text-sm uppercase ">
+                  <span className="ml-2 text-lg uppercase ">
                     %{data.discount_percentage}
                   </span>
                 </div>
@@ -109,7 +109,7 @@ export default function SingleProducts() {
                     </svg>
                     Add To Cart
                   </button>
-                  <button className="mr-2 mb-4 flex cursor-pointer items-center justify-center rounded-md border py-2 px-8 text-center text-gray-500 transition duration-150 ease-in-out hover:translate-y-1 hover:bg-yellow-300 hover:text-white">
+                  <button className="mr-2 mb-4 flex cursor-pointer items-center justify-center rounded-md border py-2 px-8 text-center text-gray-500 transition duration-150 ease-in-out hover:translate-y-1 hover:bg-orange-400 hover:text-white">
                     Buy now
                   </button>
                 </div>
@@ -118,7 +118,7 @@ export default function SingleProducts() {
                 </div>
                 <br />
                 {data.health_benefits_rich_in_vitamins_and_antioxidants ? (
-                  <div className="center relative inline-block select-none whitespace-nowrap rounded-lg bg-green-500 py-1 px-1 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                  <div className="center relative inline-block select-none whitespace-nowrap rounded-lg py-1 px-1 align-baseline font-sans text-xs font-bold uppercase leading-none">
                     <div className="mt-px">✅</div>
                   </div>
                 ) : (
@@ -133,7 +133,7 @@ export default function SingleProducts() {
                 <br />
                 <br />
                 {data.health_benefits_improves_immunity ? (
-                  <div className="center relative inline-block select-none whitespace-nowrap rounded-lg bg-green-500 py-1 px-1 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                  <div className="center relative inline-block select-none whitespace-nowrap rounded-lg  py-1 px-1 align-baseline font-sans text-xs font-bold uppercase leading-none">
                     <div className="mt-px">✅</div>
                   </div>
                 ) : (
@@ -148,7 +148,7 @@ export default function SingleProducts() {
                 <br />
                 <br />
                 {data.health_benefits_enhances_skin_health ? (
-                  <div className="center relative inline-block select-none whitespace-nowrap rounded-lg bg-green-500 py-1 px-1 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
+                  <div className="center relative inline-block select-none whitespace-nowrap rounded-lg py-1 px-1 align-baseline font-sans text-xs font-bold uppercase leading-none text-white">
                     <div className="mt-px">✅</div>
                   </div>
                 ) : (

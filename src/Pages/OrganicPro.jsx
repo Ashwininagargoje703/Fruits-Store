@@ -3,6 +3,7 @@ import ProductsCarload from "./LoadingUI/ProductsCarload";
 import OrgPro from "./Cards/OrgPro";
 import axios from "axios";
 import Navbar from "../Components/Navbar";
+
 export default function OrganicPro() {
   const [orgData, setOrgData] = useState([]);
   const [page, setPage] = useState(1);
@@ -43,7 +44,7 @@ export default function OrganicPro() {
   const addToCart = (id) => {
     // get for cart
     axios
-      .get(`https://project-json.onrender.com/products/${id}`)
+      .get(`https://project-json.onrender.com/orgproducts/${id}`)
       .then((res) => {
         // console.warn(res.data);
         axios
@@ -79,7 +80,7 @@ export default function OrganicPro() {
 
       <div className="mt-1 flex justify-center items-center cursor-pointer shadow-lg shadow-grey-800">
         <img
-          src="https://www.omfoods.com/cdn/shop/files/OMFOODS_ORGANIC_INGREDIENTS.jpg?v=1681412891"
+          src="https://thefruitshop.in/images/header3/slider1.png"
           alt="Healthy Food Banner"
           className=""
         />
@@ -88,7 +89,7 @@ export default function OrganicPro() {
       {/* Filter  */}
 
       <div className="w-[65%] mt-5 mx-auto  flex ">
-        <div className="flex w-full sm:w-[30%]">
+        <div className="flex w-full gap-10 sm:w-[30%]">
           <select
             onChange={(e) => {
               setFilter(e.target.value);
@@ -145,7 +146,7 @@ export default function OrganicPro() {
           <button
             disabled={page == 1}
             onClick={handleprev}
-            className="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-green-500 rounded-l hover:bg-green-900 dark:bg-green-500 dark:border-green-700  dark:hover:bg-green-700 "
+            className="bg-green-600 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full"
           >
             <svg
               className="w-3.5 h-3.5 mr-2"
@@ -162,18 +163,16 @@ export default function OrganicPro() {
                 d="M13 5H1m0 0 4 4M1 5l4-4"
               />
             </svg>
-            Prev
           </button>
-          <button className="bg-green-500 hover:bg-green-500 text-white font-bold py-2 px-4 rounded-full">
+          <button className="bg-green-600 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full">
             {page}
           </button>
 
           <button
             disabled={curdatalength < 9}
             onClick={handlenext}
-            className="flex items-center justify-center px-3 h-8 text-sm font-medium text-white bg-green-500 border-0 border-l border-green-700 rounded-r hover:bg-green-900 dark:bg-green-500 dark:border-green-700 dark:text-black-400 dark:hover:bg-green-700 "
+            className="bg-green-600 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full"
           >
-            Next
             <svg
               className="w-3.5 h-3.5 ml-2"
               aria-hidden="true"

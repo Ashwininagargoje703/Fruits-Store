@@ -20,7 +20,9 @@ export default function Navbar() {
                 href="#"
                 className="mr-4 block cursor-pointer py-1.5 font-sans text-xl font-bold leading-normal text-inherit antialiased font-semibold"
               >
-                <span className="text-green-600">Organic Store</span>
+                <span className="text-green-600 font-bold italic uppercase tracking-wider">
+                  Fresh Fruits Zone
+                </span>
                 {/* <img
                 className=""
                 src="https://user-images.githubusercontent.com/106812942/275217471-417cd4b2-e456-4413-b8d0-4036e7537692.png"

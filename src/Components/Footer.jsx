@@ -4,7 +4,7 @@
 export default function Footer() {
   return (
     <h1>
-      <footer className="bg-gray-50">
+      <footer className="bg-green-100">
         <div className="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 md:grid-cols-2 xl:grid-cols-4 xl:px-10">
           <div className="max-w-sm">
             <div className="mb-6 flex h-12 items-center space-x-2">
@@ -73,14 +73,14 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="bg-gray-100">
-          <div className="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center text-gray-500 sm:flex-row sm:justify-between sm:text-left">
-            <div className="">Copyright © 2023 Organic Store.</div>
+        <div className="bg-gradient-to-tr from-green-700 to-green-300">
+          <div className="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center text-gray-100 sm:flex-row sm:justify-between sm:text-left">
+            <div className="">Copyright © 2023 Fresh Fruit Zone.</div>
             <div className="">
               <a className="" href="#">
                 Privacy Policy
               </a>
-              <span>|</span>
+              <span> | </span>
               <a className="" href="#">
                 Terms of Service
               </a>

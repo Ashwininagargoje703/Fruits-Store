@@ -36,7 +36,7 @@ export default function Home() {
       <div className="banner mt-1 cursor-pointer ">
         <img
           className="w-screen"
-          src="https://img.freepik.com/premium-photo/collage-fruits-isolated-white-with-copy-space-fresh-healthy-fruits-berries-close-up_88281-742.jpg?w=996"
+          src="https://res.cloudinary.com/farmersfreshzone/image/upload/v1698560458/banner/madfkn1aixrqcyeispta.jpg"
         />
       </div>
 
@@ -78,44 +78,38 @@ export default function Home() {
         </section>
       </div>
 
-      <div>
-        <div className="banner relative w-full h-[70vh] ">
-          <video
-            className="w-full h-full object-cover filter blur-[2px]"
-            autoPlay
-            loop
-            muted
-            playsInline
-          >
-            <source
-              src="https://cdn.shopify.com/s/files/1/0512/4122/2301/files/video-2.mp4?v=1643876769"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+      <div className="w-full flex justify-center items-center">
+        <img
+          src="https://www.tescoplc.com/media/5vuhwywx/strawberry_tesco.gif?width=800&height=290&quality=100&rnd=133216656109330000"
+          alt="Tesco Banner"
+          style={{
+            width: "82vw",
+            height: "70vh",
+          }}
+        />
       </div>
 
       <div className="w-[80%] mx-auto mt-8">
-        <h1 className="font-bold md:text-7xl text-4xl text-gray-500">
-          Top Organic Food Products Online in India, Organic Grocery Store
-          Online
+        <h1 className="font-bold md:text-5xl text-4xl text-gray-600">
+          Finest Selection of Fresh Online Food Products in India, Premier
+          Organic Web Store
         </h1>
         <p className="mt-5 text-gray-400">
-          To stay healthy, fit and positive we all need to eat the right food
-          which is healthy & pious and also free from pesticides and artificial
-          colors. “ Eat a healthy meal, to help your body heal”- A healthy food
-          comprises all the nutrition and antioxidants, as do NatureLand
-          Organics products. NatureLand Organics best organic food product
-          brands in india, is top 5 organic grocery store online and the best
-          no.1 Organic Food Brand in India which is certified, 100% natural,
-          chemical free, and harvested by our skilled farmers. Our food products
-          are manufactured by using composted manure and plant waste which are
-          100% pure, chemical-free and Organic. Buy Organic Food products online
-          in India from NatureLand Organics at a low price. We have a variety of
-          organic groceries online such as- Organic Flour, oil, pulses, cereals,
-          dry fruits , snacks & beverages, sweeteners, breakfast items, juices
-          and ghee & honey.
+          In pursuit of optimal health and well-being, it is imperative to
+          nourish ourselves with wholesome, pesticide-free, and naturally
+          cultivated food. Embracing a diet rich in healthful and virtuous
+          sustenance is pivotal. At NatureLand Organics, we echo this sentiment
+          through our array of products. As one of India top 5 organic grocery
+          stores online and the esteemed No.1 Organic Food Brand in the nation,
+          we pride ourselves on certification, guaranteeing 100% natural,
+          chemical-free produce, meticulously harvested by our skilled farmers.
+          Our commitment extends to the meticulous manufacturing process,
+          utilizing composted manure and plant waste, ensuring unparalleled
+          purity and organic integrity. Explore our extensive range of
+          affordably priced organic food products online in India. From organic
+          flour, oil, pulses, cereals, and dry fruits to snacks, beverages,
+          sweeteners, breakfast essentials, juices, ghee, and honey, we curate a
+          diverse selection to cater to your holistic nutrition needs
         </p>
         <p className="mt-7 mb-5 text-gray-400">
           We all are acquainted that food we buy from the market is now filled
@@ -126,7 +120,7 @@ export default function Home() {
       </div>
 
       <div>
-        <img src="https://res.cloudinary.com/farmersfreshzone/image/upload/v1690462847/banner/eyrk9ls3hidu00miboq6.jpg" />
+        <img src="https://res.cloudinary.com/farmersfreshzone/image/upload/v1698757840/banner/efvo4m7lgyqgkeul4t9y.jpg" />
       </div>
     </div>
   );
